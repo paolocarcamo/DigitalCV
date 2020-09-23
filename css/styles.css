@@ -1,39 +1,3 @@
-/*<Navbar>*/
-
-#memoji {
-  position: relative;
-  top: 38px;
-  width: 80px;
-  margin: 0;
-}
-
-#greet {
-  position: relative;
-  top: 20px;
-}
-
-.nav {
-  font-family: "Gloria Hallelujah", cursive;
-}
-
-.navbar-right {
-  height: 100%;
-  position: fixed;
-  top: 16%;
-  right: -3px;
-  z-index: 2;
-}
-
-.navicons {
-  width: 50px;
-  height: 50px;
-  fill: #66bfbf;
-}
-
-.navicons:hover {
-  fill: #0097fc;
-}
-
 /*<Core Styles>*/
 
 body {
@@ -41,6 +5,11 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -86,6 +55,42 @@ td {
   text-align: center;
 }
 
+/*<Navbar>*/
+
+#memoji {
+  position: relative;
+  top: 38px;
+  width: 80px;
+  margin: 0;
+}
+
+#greet {
+  position: relative;
+  top: 20px;
+}
+
+.nav {
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.navbar-right {
+  height: 100%;
+  position: fixed;
+  top: 16%;
+  right: -10px;
+  z-index: 2;
+}
+
+.navicons {
+  width: 50px;
+  height: 50px;
+  fill: #66bfbf;
+}
+
+.navicons:hover {
+  fill: #0097fc;
+}
+
 .icon {
   width: 100px;
 }
@@ -113,8 +118,8 @@ strong {
 .sun {
   width: 300px;
   position: absolute;
-  top: 20%;
-  left: 30%;
+  top: 15%;
+  left: 28%;
 }
 
 #float {
@@ -172,10 +177,10 @@ strong {
 }
 
 .profile {
-  position: absolute;
+  position: relative;
   text-align: center;
   width: 100%;
-  padding: 20% 29% 0 32%;
+  padding: 0 20% 5% 23%;
 }
 
 .proitem {
@@ -196,22 +201,22 @@ strong {
 }
 
 .profilepics {
-  width: 70px;
+  width: 60px;
 }
 
 #aboutme {
   text-align: center;
   font-size: 4.5rem;
-  margin: 6% auto 0;
+  margin: 10% auto 0;
 }
 
 .development {
   padding-top: 2%;
 }
-
+/* 
 .development p {
-  padding: 0 30%;
-}
+  padding: 0 25%;
+} */
 
 #forest {
   margin-top: -3%;
@@ -220,21 +225,21 @@ strong {
 
 #roots {
   position: absolute;
-  right: 23.5%;
-  top: 191%;
-  opacity: 0.2;
+  right: 14.8%;
+  top: 195%;
+  opacity: 0.1;
   z-index: -1;
-  width: 600px;
+  width: 800px;
 }
 
 .knowledge {
-  width: 50%;
+  width: 60%;
   margin: 1rem auto 1rem auto;
   text-align: left;
 }
 
 .knowledge p {
-  margin-left: 10px;
+  padding-left: 10px;
   padding-top: 20px;
 }
 
@@ -244,14 +249,14 @@ strong {
 }
 
 .grind {
-  width: 50%;
+  width: 60%;
   margin: 1rem auto 3rem auto;
   text-align: left;
 }
 
 .grind p {
   padding-left: 130px;
-  padding-top: 35px;
+  padding-top: 30px;
   font-size: 1.2rem;
 }
 
@@ -260,20 +265,24 @@ strong {
   float: left;
 }
 
+.devmoods {
+  margin: 7% 0 5%;
+}
+
 .mhac {
   width: 248px;
-  height: 288px;
-  padding: 0.5rem;
+  height: 273px;
+  padding: 1.4rem;
   border-radius: 30px;
   margin: 0.3rem;
 }
 
-.devmoods {
-  margin: 4rem 7rem 2rem;
-}
-
 .mhac p {
   margin-bottom: 0;
+}
+
+.mhai {
+  width: 150px;
 }
 
 #bakugo {
@@ -293,48 +302,52 @@ strong {
 }
 
 .growandbuild {
-  padding: 1rem 8rem 2rem;
   text-align: left;
+  margin: 0 0 5% 10%;
 }
 
 .growandbuild div {
   border: solid #66bfbf 1px;
-  margin: 1.5%;
-  padding: 1.5%;
-  padding-bottom: 0;
+  margin: 0 1.5%;
+  padding: 2%;
   border-radius: 80px;
 }
 
 .growandbuild p {
-  padding-left: 110px;
+  margin-bottom: 0;
+  padding-top: 5px;
+  padding-left: 29%;
+  line-height: 1.5;
 }
 
 .gb {
-  width: 100px;
+  width: 80px;
   float: left;
 }
 
 .skills {
   width: 100%;
   text-align: left;
+  padding-bottom: 3%;
 }
 
 .title {
-  padding-left: 16%;
-  padding-bottom: 5%;
+  padding: 1% 5% 0 5%;
 }
 
 .devabilities {
-  padding-right: 14%;
+  padding-left: 13%;
 }
 
 .skills h1 {
-  font-size: 3.5rem;
+  font-size: 2.4rem;
+  padding-bottom: 5%;
 }
 
 .bottom-container {
   padding: 0;
   margin: 0;
+  margin-bottom: 20px;
 }
 
 .footer-link {
@@ -345,4 +358,38 @@ strong {
 .copyright {
   color: #66bfbf;
   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .mountain {
+    display: relative;
+    padding-right: 90px;
+    width: 400px;
+  }
+
+  .sm-cloud {
+    position: absolute;
+    right: 31%;
+    top: 60%;
+    width: 50px;
+    z-index: 0;
+  }
+
+  .md-cloud {
+    position: absolute;
+    right: 25%;
+    bottom: 4%;
+    width: 100px;
+    z-index: 2;
+  }
+
+  .lg-cloud {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    position: absolute;
+    left: 17%;
+    bottom: 8%;
+    width: 150px;
+    z-index: 0;
+  }
 }
