@@ -254,6 +254,20 @@ strong {
   float: left;
 }
 
+#ube {
+  height: 40px;
+  float: left;
+}
+
+.ubeplug {
+  width: 300px;
+  margin: 1% auto 0;
+}
+
+.ubeplug p {
+  margin: 0;
+}
+
 .devmoods {
   margin: 7% 0 5%;
 }
