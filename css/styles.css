@@ -265,7 +265,10 @@ strong {
 }
 
 .ubeplug p {
+  color: #7f5cfc;
   margin: 0;
+  text-align: left;
+  padding-left: 18%;
 }
 
 .devmoods {
