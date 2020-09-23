@@ -488,6 +488,12 @@ strong {
     margin-bottom: 5%;
   }
 
+  .ubeplug {
+    width: 300px;
+    margin: 1% auto 0;
+    margin-left: 25%;
+  }
+
   .growandbuild {
     margin: 0;
     margin-left: 5%;
