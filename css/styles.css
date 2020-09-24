@@ -40,6 +40,16 @@ p {
   line-height: 2;
 }
 
+hr {
+  border: 10px dotted #cbf3f3;
+  border-top: none;
+  width: 10%;
+}
+
+strong {
+  text-decoration: underline;
+}
+
 table {
   margin: 0 auto;
 }
@@ -88,9 +98,7 @@ td {
   width: 100px;
 }
 
-strong {
-  text-decoration: underline;
-}
+/* Main Content */
 
 .showcase {
   background-color: #e4f9f5;
@@ -203,7 +211,7 @@ strong {
   width: 100px;
 }
 
-.development {
+.ako {
   padding-top: 2%;
 }
 
@@ -357,7 +365,7 @@ strong {
   margin-bottom: 0;
 }
 
-/* Tablet Media Styles */
+/* Tablet Media Styles @ 768px */
 
 @media (max-width: 768px) {
   .headingtext {
@@ -380,15 +388,6 @@ strong {
 
   .profile {
     padding: 0;
-  }
-
-  #roots {
-    position: absolute;
-    left: 10.5%;
-    top: 163%;
-    opacity: 0.1;
-    z-index: -1;
-    width: 600px;
   }
 
   .sm-cloud {
@@ -425,7 +424,7 @@ strong {
   }
 
   .profilepics {
-    width: 60px;
+    width: 80px;
   }
 
   .devabilities {
@@ -494,6 +493,222 @@ strong {
     padding-top: 3.5%;
     padding-left: 21.5%;
     padding-right: 5%;
+  }
+
+  .growandbuild div {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+}
+
+/* Mobile Media Styles @ 350px */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  #memoji {
+    position: relative;
+    top: 38px;
+    width: 50px;
+    margin: 0;
+  }
+
+  #greet {
+    position: relative;
+    top: 20px;
+  }
+
+  .nav {
+    font-family: "Gloria Hallelujah", cursive;
+  }
+
+  .navbar-right {
+    height: 100%;
+    position: fixed;
+    top: 25%;
+    right: -10px;
+    z-index: 2;
+  }
+
+  .navicons {
+    width: 30px;
+    height: 30px;
+    fill: #66bfbf;
+  }
+
+  .navicons:hover {
+    fill: #0097fc;
+  }
+
+  .headingtext {
+    position: absolute;
+    bottom: 10%;
+    right: 23%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .mountain {
+    display: none;
+  }
+
+  #aboutme {
+    margin-top: 30%;
+  }
+
+  #forest {
+    margin-top: -3%;
+    width: 150px;
+  }
+
+  .profile {
+    margin: 0;
+    margin-bottom: 8%;
+    padding: 0;
+  }
+
+  .proitem {
+    border-radius: 30%;
+    margin: 3% 20%;
+    padding: 10%;
+    text-align: center;
+  }
+
+  .profilepics {
+    width: 80px;
+  }
+
+  .profile h2 {
+    margin: 0 auto;
+  }
+
+  .sm-cloud {
+    display: none;
+  }
+
+  .md-cloud {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    position: absolute;
+    left: 10%;
+    top: 3%;
+    width: 100px;
+    z-index: 0;
+  }
+
+  .lg-cloud {
+    -webkit-transform: none;
+    transform: none;
+    position: absolute;
+    left: 40%;
+    bottom: -4%;
+    width: 250px;
+    z-index: 0;
+  }
+
+  .sun {
+    width: 200px;
+    position: absolute;
+    top: 33%;
+    left: 10%;
+  }
+
+  .devabilities {
+    padding: 0;
+    margin: 0 10% 10% 20%;
+  }
+
+  .title {
+    padding: 0;
+    padding-left: 10%;
+    text-align: center;
+  }
+
+  .title h1 {
+    font-size: 1.4rem;
+  }
+
+  .title p {
+    font-size: 0.9rem;
+    margin: 0 15%;
+  }
+
+  #development {
+    margin-bottom: 0;
+    margin: 0 20%;
+  }
+
+  .knowledge {
+    width: 65%;
+    text-align: center;
+  }
+
+  .knowledge p {
+    padding: 0;
+  }
+
+  #books {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .grind {
+    width: 50%;
+    margin: 1rem auto 1rem auto;
+    text-align: center;
+  }
+
+  .grind p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  #controller {
+    width: 100px;
+    float: none;
+  }
+
+  .mhac {
+    margin: 4% 20% 4% 20%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+  }
+
+  .devmoods {
+    margin: 0;
+    margin-bottom: 1%;
+  }
+
+  .ubeplug {
+    width: 300px;
+    margin: -8% auto 3%;
+    margin-left: 15%;
+    font-size: 0.8rem;
+  }
+
+  .ubeplug p {
+    padding-top: 3%;
+  }
+
+  .gb {
+    width: 60px;
+    padding-top: 0;
+    padding-left: 0;
+  }
+
+  .growandbuild {
+    margin-left: 0;
+    margin: 10% 15%;
+  }
+
+  .growandbuild p {
+    padding-top: 5.5%;
+    padding-left: 33%;
+    padding-right: 5%;
+    font-size: 0.5rem;
   }
 
   .growandbuild div {
