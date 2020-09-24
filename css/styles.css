@@ -212,15 +212,6 @@ strong {
   width: 500px;
 }
 
-#roots {
-  position: absolute;
-  right: 14.5%;
-  top: 190%;
-  opacity: 0.1;
-  z-index: -1;
-  width: 800px;
-}
-
 .knowledge {
   width: 60%;
   margin: 1rem auto 1rem auto;
